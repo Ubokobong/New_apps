@@ -1,0 +1,5 @@
+STEPS:
+- name: "gcr.io/cloud-builders/docker"
+args: ['build', '-t,', 'gcr.io/peaceful-crane-434623-e6/NEW_APPS', '.']
+name: 'gcr.io/cloud-builders/docker'
+args: ['push', '-t', 'gcr.io/peaceful-crane-434623-e6/NEW_APPS']
